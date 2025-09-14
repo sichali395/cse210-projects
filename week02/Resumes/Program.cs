@@ -19,13 +19,13 @@ class Program
         
         // Create resume instance with your name
         Resume myResume = new Resume();
-        myResume._personName = "Laston James Sichali";
+        myResume._name = "Laston James Sichali";
         
         // Add jobs to the resume
         myResume._jobs.Add(job1);
         myResume._jobs.Add(job2);
         
         // Display the complete resume
-        myResume.DisplayResume();
+        myResume.Display();
     }
 }
